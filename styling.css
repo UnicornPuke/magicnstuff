@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(28, 20, 33)
+}
+
+html {
+    padding: 0;
+    margin: 0
+}
+
+.header {
+    width: 100vw;
+    height: 11vh;
+    background-color: #63405D;
+}
+
+.page-button {
+    float: left;
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+    font-size: calc(1vh + 1vw);
+    background-color: #63405D;
+    text-align: center;
+    overflow-wrap: break-word;
+    margin-left: 1.5vw;
+    padding-left: .75vh;
+    padding-right: .75vh;
+    vertical-align: middle;
+    border-radius: 10px;
+    background-color: #684A5D;
+    height: 9vh;
+    margin-top: 1vh;
+    line-height: 9vh;
+}
+
+.page-button:hover {
+    background-color: #6D545D;
+    text-decoration: underline;
+}
+
+.logo {
+    height: 11vh;
+    float: left;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 15vw;
+    height: 89vh;
+    background-color: #BED558;
+    float: left;
+}
+
+.sidebar-button {
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+    font-size: calc(1vh + 1vw);
+    width: 13vw;
+    height: 8vh;
+    background-color: #ABB557;
+    border-radius: 10px;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    text-align: center;
+    overflow-wrap: break-word;
+    line-height: 8vh;
+}
+
+.sidebar-button:hover {
+    background-color: #8B9556;
+}
+
+.center-thing {
+    width: 83vw;
+    height: calc(89vh - 2vw);
+    margin-left: 1vw;
+    margin-top: 1vw;
+    background-color: rgb(36, 19, 44);
+    border-radius: 10px;
+    float: left;
+}
