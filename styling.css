@@ -3,7 +3,9 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(28, 20, 33)
+    background-color: rgb(28, 20, 33);
+    color: white;
+    font-family: 'MedievalSharp', cursive;
 }
 
 html {
@@ -11,10 +13,36 @@ html {
     margin: 0
 }
 
+p {
+    margin: 1vw;
+    font-size: 28px;
+}
+
+h2 {
+    margin: 1vw;
+    font-size: 34px;
+}
+
+h1 {
+    margin: 1vw;
+    font-size: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
 .header {
     width: 100vw;
     height: 11vh;
     background-color: #63405D;
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-size: 1.35vw;
+    line-height: 11vh
 }
 
 .page-button {
@@ -55,11 +83,11 @@ html {
     height: 89vh;
     background-color: #BED558;
     float: left;
+    text-align: center;
+    overflow-wrap: break-word;
 }
 
 .sidebar-button {
-    color: white;
-    font-family: 'MedievalSharp', cursive;
     font-size: calc(1vh + 1vw);
     width: 13vw;
     height: 8vh;
@@ -67,8 +95,6 @@ html {
     border-radius: 10px;
     margin-left: 1vw;
     margin-top: 1vw;
-    text-align: center;
-    overflow-wrap: break-word;
     line-height: 8vh;
 }
 
@@ -84,4 +110,34 @@ html {
     background-color: rgb(36, 19, 44);
     border-radius: 10px;
     float: left;
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.feature {
+    width: 15.4vw;
+    border-radius: 10px;
+    margin-left: 1vw;
+    float: left;
+}
+
+.caption {
+    width: 15.4vw;
+    height: 8vh;
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+    margin-left: 1vw;
+    text-align: center;
+    overflow-wrap: break-word;
+    line-height: 7vh;
+    float: left;
+}
+
+#bottom:hover {
+    visibility: visible;
+}
+
+#bottom {
+    visibility: hidden;
+    transition: all 2s;
 }
