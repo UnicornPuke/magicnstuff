@@ -109,7 +109,8 @@ a {
 
 .center-thing {
     width: 83vw;
-    height: calc(89vh - 2vw);
+    /* min-height: calc(89vh - 2vw); */
+    height: auto;
     margin-left: 1vw;
     margin-top: -80vh;
     margin-left: 16vw;
@@ -155,14 +156,21 @@ a {
 .cover-image {
     width: 17.5vw;
     float: right;
-    margin-top: -4.5vw;
+    margin-top: 1vw;
     margin-right: 1vw;
     border-radius: 10px;
     background-color: #6D545D;
 }
 
 .cover-caption {
-
+    background-color: #8B9556;
+    width: 19.5vw;
+    height: 40vw;
+    border-radius: 10px;
+    float: right;
+    top: calc(11vh + 2vw);
+    margin-left: 62.5vw;
+    position: absolute;
 }
 
 .padding {
