@@ -147,7 +147,7 @@ a {
 
 #bottom {
     visibility: hidden;
-    transition: all 2s;
+    transition: visibility 2s;
     margin-top: 11vh;
     position: fixed;
     z-index: 10;
